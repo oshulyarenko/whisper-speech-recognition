@@ -32,3 +32,5 @@ scoop install ffmpeg
 For more information on Whisper please see https://github.com/openai/whisper
 
 The code in this repository is public domain.
+
+[Get Automated Documentation](https://oshulyarenko.github.io/whisper-speech-recognition/) 
