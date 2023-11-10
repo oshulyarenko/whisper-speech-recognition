@@ -1,0 +1,7 @@
+site_name: Marshmallow Generator
+
+repo_url: https://github.com/oshulyarenko/whisper-speech-recognition
+edit_uri: blob/main/docs/
+
+nav:
+  - "My page": my_page.md
