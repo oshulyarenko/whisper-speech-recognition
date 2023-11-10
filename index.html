@@ -31,10 +31,16 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li class="navitem active">
-                                <a href="." class="nav-link">Welcome</a>
+                                <a href="." class="nav-link">Home</a>
                             </li>
                             <li class="navitem">
-                                <a href="my_page/" class="nav-link">My page</a>
+                                <a href="doc1/" class="nav-link">My page 1</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="doc2/" class="nav-link">My page 2</a>
+                            </li>
+                            <li class="navitem">
+                                <a href="doc3/" class="nav-link">My page 3</a>
                             </li>
                         </ul>
 
@@ -50,12 +56,9 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="my_page/" class="nav-link">
+                                <a rel="next" href="doc1/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="https://github.com/oshulyarenko/whisper-speech-recognition/blob/main/docs/index.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -81,6 +84,10 @@
               <ul class="nav flex-column">
               </ul>
             </li>
+            <li class="nav-item" data-level="2"><a href="#project-links" class="nav-link">Project links</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
               <ul class="nav flex-column">
               </ul>
@@ -101,11 +108,18 @@
 <li><code>mkdocs build</code> - Build the documentation site.</li>
 <li><code>mkdocs -h</code> - Print help message and exit.</li>
 </ul>
+<h2 id="project-links">Project links</h2>
+<ul>
+<li><a href="doc1/">Page 1</a> </li>
+<li><a href="doc2/">Page 2</a> </li>
+<li><a href="doc3/">Page 3</a> </li>
+</ul>
 <h2 id="project-layout">Project layout</h2>
 <pre><code>mkdocs.yml    # The configuration file.
 docs/
     index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+    doc1.md   # The documentation for 'MyClass'
+    doc2.md   # The documentation for foo.bar
 </code></pre></div>
             </div>
         </div>
@@ -189,5 +203,5 @@ docs/
 
 <!--
 MkDocs version : 1.5.3
-Build Date UTC : 2023-11-10 08:10:44.082892+00:00
+Build Date UTC : 2023-11-10 08:49:20.372687+00:00
 -->
