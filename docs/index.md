@@ -1,24 +1,26 @@
-# Welcome to MkDocs
+This site contains the project documentation for the `Real time speech to text recognition` project that is based on the 
+[Really Real Time Speech To Text](https://github.com/davabase/whisper_real_time) work.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+##Placeholder for stack
 
-## Commands
+- Python and [Whisper](https://github.com/openai/whisper) to create the Speech To Text transcription, 
+- [MkDocs](https://www.mkdocs.org/) and [mkdocstrings](https://mkdocstrings.github.io/) for documentation,
+- [poetry](https://python-poetry.org/) and [pyenv](https://github.com/pyenv/pyenv) for package and dependency management
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Table Of Contents
 
-## Project links
+The documentation consists of three separate parts:
 
-* [Page 1](doc1.md) 
-* [Page 2](doc2.md) 
-* [Page 3](doc3.md) 
+1. [How-To Guides](how-to-guides.md)
+2. [Reference](reference.md)
+3. [Explanation](explanation.md)
 
-## Project layout 
+Quickly find what you're looking for depending on
+your use case by looking at the different pages.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        doc1.md   # The documentation for 'MyClass'
-        doc2.md   # The documentation for foo.bar
+## Acknowledgements
+
+I want to thank my house plants for providing me with
+a negligible amount of oxygen each day. Also, I want
+to thank the sun for providing more than half of their
+nourishment free of charge.

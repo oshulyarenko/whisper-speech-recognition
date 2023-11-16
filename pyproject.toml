@@ -11,7 +11,9 @@ pyaudio = "^0.2.14"
 speechrecognition = "^3.10.0"
 openai-whisper = [{git = "https://github.com/openai/whisper.git"}]
 torch = [{url = "https://download.pytorch.org/whl/cpu/torch-2.1.0-cp39-none-macosx_10_9_x86_64.whl"}]
-mkdocstrings = "^0.23.0"
+mkdocstrings = {extras = ["python"], version = "^0.23.0"}
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.4.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
