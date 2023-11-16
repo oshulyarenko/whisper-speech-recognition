@@ -1,3 +1,7 @@
+'''
+Main file to transcribe the speech
+'''
+
 #! python3.9.9
 
 import argparse
@@ -15,6 +19,9 @@ from sys import platform
 
 
 def main():
+    """
+    Function to transcribe the speech into text
+    """
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="medium", help="Model to use",
                         choices=["tiny", "base", "small", "medium", "large"])

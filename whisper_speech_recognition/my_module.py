@@ -1,5 +1,9 @@
+'''
+Here we do a lot of prints!!!
+'''
+
 class MyClass:
-    """Print print print!"""
+    '''Print print print!'''
 
     def method_a(self):
         """Print A!"""

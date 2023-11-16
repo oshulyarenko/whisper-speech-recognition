@@ -1,7 +1,13 @@
-site_name: Marshmallow Generator
+site_name: Transcribing Docs
+
+theme:
+  name: "material"
+
+plugins:
+  - mkdocstrings
 
 nav:
-  - "Home": index.md
-  - "My page 1": doc1.md
-  - "My page 2": doc2.md
-  - "My page 3": doc3.md
+  - Home: index.md
+  - How-To Guides: how-to-guides.md
+  - reference.md
+  - explanation.md
